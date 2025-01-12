@@ -1,4 +1,4 @@
-import random
+import random 
 
-print(random.randint(0, 10))
-
+for i in range(100):
+    print(random.randint(i+1, i+10))
